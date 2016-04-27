@@ -1,0 +1,27 @@
+.timer-container {
+  display: block;
+  position: absolute;
+  width: 75%;
+  height:200px;
+  background-color:rgba(255, 255, 255, .5);
+  left:50%;
+  top:5%;
+  transform: translateX(-50%);
+  text-align:center;
+  line-height:40vh;
+  font-size:10vw;
+  border-radius: 50%;
+  z-index: 9999;
+
+  .timer-handle {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: rgba(50, 175, 255, .8);
+    border-radius: 10px;
+    z-index: 3;
+  }
+  .timer-countdown {
+    color:#333;
+  }
+}

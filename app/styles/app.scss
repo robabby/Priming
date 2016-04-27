@@ -1,2 +1,8 @@
+@import "variables";
+
 @import "components/timer-container/style";
 @import "components/timer-handle/style";
+
+body {
+  background-color: $backgroundColor;
+}
