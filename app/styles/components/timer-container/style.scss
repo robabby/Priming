@@ -1,15 +1,11 @@
+@import '../../mixins';
+
 .timer-container {
   display: block;
   position: absolute;
-  width: 75%;
-  height:200px;
+  @include aspectRatio(1, 1);
+  margin:0 5%;
   background-color:rgba(255, 255, 255, .5);
-  left:50%;
-  top:5%;
-  transform: translateX(-50%);
-  text-align:center;
-  line-height:40vh;
-  font-size:10vw;
   border-radius: 50%;
   z-index: 9999;
 

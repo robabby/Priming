@@ -3,6 +3,14 @@
 @import "components/timer-container/style";
 @import "components/timer-handle/style";
 
+* {
+  box-sizing: border-box;
+}
+html,
 body {
   background-color: $backgroundColor;
+  width:100%;
+  height:100%;
+  padding: 0;
+  margin:0;
 }
