@@ -3,11 +3,15 @@
 .timer-container {
   display: block;
   position: absolute;
-  @include aspectRatio(1, 1);
-  margin:0 5%;
-  background-color:rgba(255, 255, 255, .5);
-  border-radius: 50%;
+  width:90%;
+  margin:5% 5% 0;
   z-index: 9999;
+
+  .timer-circle {
+    @include aspectRatio(1, 1);
+    background-color:rgba(255, 255, 255, .5);
+    border-radius: 50%;
+  }
 
   .timer-handle {
     position: absolute;
